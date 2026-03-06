@@ -1,4 +1,5 @@
 import React from 'react';
+import image from 'next/image';
 
 // 1. Tipe Data Sertifikat
 interface Certificate {
