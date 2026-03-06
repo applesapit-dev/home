@@ -194,9 +194,4 @@ const Services = () => {
       icon: <Icons.Hammer />,
       title: "Pembangunan Rumah",
       desc: "Membangun hunian baru dari nol dengan standar kualitas terbaik dan material pilihan."
-    },
-    {
-      icon: <Icons.Ruler />,
-      title: "Desain Arsitektur",
-      desc: "Perencanaan desain rumah, kantor, dan bangunan komersial yang fungs
     }
