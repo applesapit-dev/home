@@ -196,3 +196,4 @@ const Services = () => {
     }
   ]
 }
+export default function Home()
