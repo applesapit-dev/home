@@ -126,3 +126,4 @@ const About = () => (
         </div>
         <div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Mengapa Memilih <span className="text-orange-500">Kreasi Bangun Semesta?</span>
+        </div>
