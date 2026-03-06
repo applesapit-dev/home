@@ -195,3 +195,5 @@ const Services = () => {
       title: "Pembangunan Rumah",
       desc: "Membangun hunian baru dari nol dengan standar kualitas terbaik dan material pilihan."
     }
+  ]
+}
