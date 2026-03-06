@@ -47,7 +47,6 @@ const Navbar = () => {
     <nav className="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
             <div className="bg-orange-600 p-2 rounded-lg">
               <Icons.Hammer />
@@ -57,7 +56,6 @@ const Navbar = () => {
             </span>
           </div>
 
-          {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 items-center">
             <a href="#home" className="text-gray-600 hover:text-orange-600 font-medium transition">Beranda</a>
             <a href="#about" className="text-gray-600 hover:text-orange-600 font-medium transition">Tentang Kami</a>
@@ -68,7 +66,6 @@ const Navbar = () => {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
             <button onClick={() => setIsOpen(!isOpen)} className="text-gray-600 hover:text-gray-900 p-2">
               {isOpen ? <Icons.X /> : <Icons.Menu />}
@@ -77,7 +74,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu Dropdown */}
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
@@ -97,7 +93,6 @@ const Navbar = () => {
 const Hero = () => {
   return (
     <section id="home" className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-gray-50">
-      {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
           src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2831&auto=format&fit=crop" 
@@ -136,7 +131,6 @@ const Hero = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            {/* Floating Card */}
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl max-w-xs hidden md:block">
               <div className="flex items-center gap-4">
                 <div className="bg-green-100 p-3 rounded-full">
@@ -176,9 +170,3 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Layanan Kami</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Kami menyediakan berbagai layanan konstruksi untuk memenuhi kebutuhan Anda, mulai dari perencanaan hingga eksekusi. </p>
