@@ -181,4 +181,4 @@ const Services = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Layanan Kami</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Kami menyediakan berbagai layanan konstruksi untuk memenuhi kebutuhan Anda, mulai dari perencanaan hingga eksekusi.
+            Kami menyediakan berbagai layanan konstruksi untuk memenuhi kebutuhan Anda, mulai dari perencanaan hingga eksekusi. </p>
