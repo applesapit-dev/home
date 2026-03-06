@@ -168,4 +168,17 @@ const Services = () => {
       desc: "Meningkatkan nilai properti Anda melalui renovasi total atau perbaikan spesifik."
     }
   ];
-}
+
+  return (
+    <section id="services" className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Layanan Kami</h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Kami menyediakan berbagai layanan konstruksi untuk memenuhi kebutuhan Anda, mulai dari perencanaan hingga eksekusi.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          {services.map((service, index))
+  )
