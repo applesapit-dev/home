@@ -69,7 +69,7 @@ export default function CertificatesPage() {
             Sertifikat & Penghargaan
           </h1>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Berikut adalah daftar sertifikasi profesional dan penghargaan yang telah saya raih untuk meningkatkan kompetensi di bidang teknologi.
+            Berikut adalah daftar sertifikasi profesional dan penghargaan yang telah applesapit raih untuk meningkatkan kompetensi di bidang teknologi.
           </p>
         </div>
 
