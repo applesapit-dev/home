@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-// --- Komponen SVG Icons (Tanpa Library Eksternal) ---
+// --- 1. Komponen SVG Icons (Tanpa Library Eksternal) ---
 const Icons = {
   Menu: () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
@@ -39,7 +39,7 @@ const Icons = {
   ),
 };
 
-// --- Komponen Navbar ---
+// --- 2. Komponen Navbar ---
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -93,7 +93,7 @@ const Navbar = () => {
   );
 };
 
-// --- Komponen Hero Section ---
+// --- 3. Komponen Hero Section ---
 const Hero = () => {
   return (
     <section id="home" className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-gray-50">
@@ -155,7 +155,7 @@ const Hero = () => {
   );
 };
 
-// --- Komponen Services ---
+// --- 4. Komponen Services ---
 const Services = () => {
   const services = [
     {
@@ -179,5 +179,4 @@ const Services = () => {
     <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Layanan Kami</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
