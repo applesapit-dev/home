@@ -168,4 +168,4 @@ const Services = () => {
       desc: "Meningkatkan nilai properti Anda melalui renovasi total atau perbaikan spesifik."
     }
   ];
-};
+}
