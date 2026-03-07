@@ -13,6 +13,7 @@ export default function Home() {
           <a className="hover:text-white transition">Product</a>
           <a className="hover:text-white transition">Features</a>
           <a className="hover:text-white transition">Contact</a>
+          <a className="hover:text-white transition">My Certified</a>
         </div>
 
         <button className="px-5 py-2 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 hover:scale-105 transition shadow-lg shadow-indigo-500/30">
